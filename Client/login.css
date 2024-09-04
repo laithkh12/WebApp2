@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080710;
+    background-image: url('https://clipart-library.com/images/Lid5aybdT.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#loginForm {
+    max-width: 30%;
+    max-height: 300;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 7, 7, 0.13);
+    box-shadow: 0 0 10px rgba(250, 37, 37, 0.83);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+#loginForm h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #00000000;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: auto;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #e5e5e5;
+}
+
+button[type="submit"] {
+    width: 50%;
+    padding: 15px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f4caf;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.signin-link {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signin-link a {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.signin-link a:hover {
+    color: rgb(139, 0, 23);
+    text-decoration: none;
+}
