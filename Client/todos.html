@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+    <link rel="stylesheet" href="todos.css">
+</head>
+<body>
+    
+    <form id="todo-form">
+        <h1 style="font-size: 24px; color: #fffdfd;" id="welcomeMessage">Welcome</h1>
+        <input type="text" id="todo-input" placeholder="Enter a todo">
+        <button type="submit">Add Todo</button>
+        <ul id="todo-list"></ul>
+    <button id="saveAllButton">Save All</button>
+    <button id="logoutButton">Logout</button> 
+    </form>
+    
+    
+    <script src="todos.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
